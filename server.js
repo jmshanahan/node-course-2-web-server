@@ -30,6 +30,7 @@ hbs.registerHelper('getCurrentYear', () => {
 hbs.registerHelper('screamIt', (text) => {
     return text.toUpperCase();
 });
+
 app.get('/', (req, res) => {
 
     res.render('home', {
